@@ -1,0 +1,2 @@
+ convert  -gravity Center  -crop 1900x960+0+0  -delay 20  -loop 0 *.png  -compress lzw  -layers OptimizePlus -layers OptimizeTransparency      -fuzz 1.6
+%  animated_zip_tran_crop_center.gif 

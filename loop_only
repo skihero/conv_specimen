@@ -1,0 +1,1 @@
+ convert  -gravity Center  -delay 50  -loop 0 *.png  -compress lzw  -layers OptimizePlus -layers OptimizeTransparency      -fuzz 1.6% canvas_mandel_cubism_diffraction_other.gif && eog canvas_mandel_cubism_diffraction_other.gif
